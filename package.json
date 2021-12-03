@@ -1,0 +1,57 @@
+{
+  "name": "material-ui-glass",
+  "private": false,
+  "description": "Glass UI components and theming using Material UI",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint 'src/**/*.{ts,tsx,js,jsx}'",
+    "storybook": "start-storybook -p 6006",
+    "typecheck": "tsc"
+  },
+  "peerDependencies": {
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/material": "^5.2.1"
+  },
+  "devDependencies": {
+    "@react-theming/storybook-addon": "^1.1.3",
+    "@storybook/addon-actions": "^6.4.0",
+    "@storybook/addon-essentials": "^6.4.0",
+    "@storybook/addon-links": "^6.4.0",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/addons": "^6.4.0",
+    "@storybook/react": "^6.4.0",
+    "@storybook/theming": "^6.4.0",
+    "@types/jest": "^23.3.13",
+    "@types/react": "^16.9.2",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb": "19.0.1",
+    "eslint-config-airbnb-typescript": "16.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jest": "^25.3.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "jest": "^27.3.1",
+    "react": "^17.0.2",
+    "react-dom": ">=16.9.0",
+    "storybook-addon-material-ui": "^0.9.0-alpha.24",
+    "typescript": "^4.5.2"
+  },
+  "keywords": [
+    "react",
+    "material ui",
+    "glass",
+    "glassmorphism",
+    "ui",
+    "theme"
+  ]
+}
